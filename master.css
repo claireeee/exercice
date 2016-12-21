@@ -1,1 +1,62 @@
+* {
+margin: 0;
+padding: 0;
+font-family: Verdana,cursive;
+}
 
+header {
+height: 22vh;
+color: white;
+background-color:#665F55;
+z-index: -1;
+}
+
+h1 {
+font-weight: bold;
+font-size: 30px;
+padding-bottom: 3%;
+}
+a {
+text-decoration: none;
+color: #fff!important;
+}
+
+a:hover {
+  text-decoration: none!important;
+}
+
+ul {
+
+}
+
+li {
+display:inline-block;
+justify-content: center;
+align-items: center;
+border:1px solid #665F55;
+border-radius: 40px;
+padding: 2%;
+list-style-type: none;
+font-size: 22px;
+font-weight: 300;
+}
+
+.imagebackground{
+height: 500px;
+background-image: url(broderie-anatomique.jpg);
+}
+
+.titreRubrique {
+widht:50%;
+padding-left: 1%;
+background-color: #FF9900;
+margin-left: 48%;
+margin-top: 2%;
+border: 2px outset gray;
+border-radius: 50px;
+z-index: 1;
+color: white;
+font-family: Verdana, cursive;
+font-size: 24px;
+font-weight: 150;
+}
